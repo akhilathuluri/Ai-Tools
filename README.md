@@ -41,8 +41,8 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/nexusai-studio.git
-cd nexusai-studio
+git clone https://github.com/akhilathuluri/Ai-Tools.git
+cd Ai-Tools
 ```
 
 2. Install dependencies:
