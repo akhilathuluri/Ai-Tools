@@ -1,6 +1,7 @@
 # NexusAI Studio 🤖
 
 A powerful AI-powered content generation toolkit that helps you create, enhance, and manage various types of content using Google's Gemini AI technology.
+![aitools](https://github.com/user-attachments/assets/eabd8f9f-15b8-4a0a-a871-358b045d44c6)
 
 ## 📑 Table of Contents
 - [Overview](#overview)
@@ -18,8 +19,6 @@ A powerful AI-powered content generation toolkit that helps you create, enhance,
 ## 🎯 Overview
 
 NexusAI Studio is a web-based application that provides various AI-powered tools to help you create and manage content. Whether you're a writer, marketer, developer, or content creator, our suite of tools can help streamline your workflow.
-
-![aitools](https://github.com/user-attachments/assets/eabd8f9f-15b8-4a0a-a871-358b045d44c6)
 
 
 ## ✨ Features
