@@ -10,7 +10,8 @@ import {
   Type,
   Hash,
   Sparkles,
-  History
+  History,
+  Github
 } from 'lucide-react';
 import { Tool } from '../types';
 
@@ -72,6 +73,13 @@ const tools: Tool[] = [
     path: '/tools/hashtags'
   },
   {
+    id: 'github',
+    name: 'GitHub Analyzer',
+    description: 'Analyze GitHub profiles',
+    icon: 'Github',
+    path: '/tools/github'
+  },
+  {
     id: 'history',
     name: 'History',
     description: 'View saved content',
@@ -90,7 +98,8 @@ const iconComponents = {
   Type,
   Hash,
   Sparkles,
-  History
+  History,
+  Github
 };
 
 export default function Sidebar() {
