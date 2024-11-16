@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import Layout from './components/Layout';
 import Landing from './components/Landing';
@@ -15,6 +15,7 @@ const SqlBuilder = React.lazy(() => import('./tools/SqlBuilder'));
 const TextEnhancer = React.lazy(() => import('./tools/TextEnhancer'));
 const HashtagGenerator = React.lazy(() => import('./tools/HashtagGenerator'));
 const GithubAnalyzer = React.lazy(() => import('./tools/GithubAnalyzer'));
+const ImageAnalyzer = React.lazy(() => import('./tools/ImageAnalyzer'));
 const History = React.lazy(() => import('./tools/History'));
 
 function App() {
@@ -68,6 +69,11 @@ function App() {
             <Route path="tools/github" element={
               <React.Suspense fallback={<div>Loading...</div>}>
                 <GithubAnalyzer />
+              </React.Suspense>
+            } />
+            <Route path="tools/image" element={
+              <React.Suspense fallback={<div>Loading...</div>}>
+                <ImageAnalyzer />
               </React.Suspense>
             } />
             <Route path="history" element={
