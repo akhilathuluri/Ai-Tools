@@ -10,8 +10,9 @@ import {
   Type,
   Hash,
   Sparkles,
-  History,
-  Github
+  Github,
+  Image,
+  History
 } from 'lucide-react';
 import { Tool } from '../types';
 
@@ -80,6 +81,13 @@ const tools: Tool[] = [
     path: '/tools/github'
   },
   {
+    id: 'image',
+    name: 'Image Analyzer',
+    description: 'Analyze images with AI',
+    icon: 'Image',
+    path: '/tools/image'
+  },
+  {
     id: 'history',
     name: 'History',
     description: 'View saved content',
@@ -98,8 +106,9 @@ const iconComponents = {
   Type,
   Hash,
   Sparkles,
-  History,
-  Github
+  Github,
+  Image,
+  History
 };
 
 export default function Sidebar() {
